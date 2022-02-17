@@ -1,3 +1,3 @@
-FROM nginx
+FROM httpd
 #copying files
-COPY * /var/www/html
+COPY * /usr/local/apache2/htdocs/
